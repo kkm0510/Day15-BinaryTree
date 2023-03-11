@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="079cdd69-9b07-42c0-a996-7c0f4a91781f" name="Changes" comment="ADDED : classes">
-      <change beforePath="$PROJECT_DIR$/src/main/MyBinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MyBinaryNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MyBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MyBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/MyBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,16 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MyBinaryTreeTest.given3NumbersWhenAddedToBinaryTreeShouldReturnSizeThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day15-BinaryTree" />
