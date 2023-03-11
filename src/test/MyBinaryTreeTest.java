@@ -6,9 +6,10 @@ import org.junit.Test;
 
 public class MyBinaryTreeTest {
 
+    MyBinaryTree<Integer> myBinaryTree=new MyBinaryTree<>();
+
     @Test
     public void given3NumbersWhenAddedToBinaryTreeShouldReturnSizeThree(){
-        MyBinaryTree<Integer> myBinaryTree=new MyBinaryTree<>();
         myBinaryTree.add(56);
         myBinaryTree.add(30);
         myBinaryTree.add(70);
@@ -18,10 +19,7 @@ public class MyBinaryTreeTest {
 
     @Test
     public void givenMultipleNumbersWhenAddedToBinaryTreeShouldReturnSizeEqualToCountOfNumbers(){
-        MyBinaryTree<Integer> myBinaryTree=new MyBinaryTree<>();
-        myBinaryTree.add(56);
-        myBinaryTree.add(30);
-        myBinaryTree.add(70);
+        given3NumbersWhenAddedToBinaryTreeShouldReturnSizeThree();
         myBinaryTree.add(3);
         myBinaryTree.add(11);
         myBinaryTree.add(16);
@@ -34,5 +32,12 @@ public class MyBinaryTreeTest {
         myBinaryTree.add(67);
         int size= myBinaryTree.getSize();
         Assert.assertEquals(13, size);
+    }
+
+    @Test
+    public void givenANumberSearchInABinarySearchTreeShouldReturnTrueIfPresentElseFalse(){
+        givenMultipleNumbersWhenAddedToBinaryTreeShouldReturnSizeEqualToCountOfNumbers();
+        boolean isPresent=myBinaryTree.search(63);
+        Assert.assertTrue(isPresent);
     }
 }
